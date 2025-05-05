@@ -1,0 +1,9 @@
+rules:
+  - id: sensitive-file-check
+    enabled: true
+    severity: high
+    params:
+      patterns:
+        - .gitlab-ci.yml
+        - secrets.yaml
+        - kube/config
