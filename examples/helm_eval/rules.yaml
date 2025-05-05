@@ -1,0 +1,8 @@
+rules:
+  - id: helm-chart-version-and-changelog
+    enabled: true
+    params:
+      changelog: custom-changelog.md
+      chart_paths:
+        - charts/
+        - helm/
